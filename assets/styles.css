@@ -151,19 +151,19 @@ section.block{padding:96px 0}
 
 /* ---------- SERVICES PAGE ---------- */
 .svc-detail{display:grid;grid-template-columns:1fr;gap:0}
-.svc-block{display:grid;grid-template-columns:.9fr 1.1fr;gap:50px;align-items:center;padding:56px 0;border-top:1px solid rgba(31,61,43,.14)}
+.svc-block{display:grid;grid-template-columns:.9fr 1.1fr;gap:36px;align-items:center;padding:32px 0;border-top:1px solid rgba(31,61,43,.14)}
 .svc-block:first-child{border-top:none}
 .svc-block.flip .svc-visual{order:2}
-.svc-visual{background:var(--forest);border-radius:22px;aspect-ratio:5/4;display:grid;place-items:center;position:relative;overflow:hidden;box-shadow:0 24px 50px -30px rgba(31,61,43,.5)}
+.svc-visual{background:var(--forest);border-radius:22px;height:260px;display:grid;place-items:center;position:relative;overflow:hidden;box-shadow:0 24px 50px -30px rgba(31,61,43,.5)}
 .svc-visual::after{content:"";position:absolute;inset:0;background:radial-gradient(circle at 70% 20%,rgba(138,161,119,.25),transparent 60%)}
-.svc-visual .big-ic{position:relative;z-index:2;width:96px;height:96px}
+.svc-visual .big-ic{position:relative;z-index:2;width:76px;height:76px}
 .svc-visual .big-ic svg{width:100%;height:100%;stroke:var(--cream);fill:none;stroke-width:1.2}
-.svc-visual .lbl{position:absolute;bottom:22px;left:24px;z-index:2;font-family:'Fraunces',serif;font-style:italic;color:var(--sage);font-size:17px}
+.svc-visual .lbl{position:absolute;bottom:18px;left:20px;z-index:2;font-family:'Fraunces',serif;font-style:italic;color:var(--sage);font-size:16px}
 .svc-text .num{font-family:'Fraunces',serif;font-style:italic;color:var(--gold);font-size:17px;margin-bottom:8px}
 .svc-text h2{font-family:'Fraunces',serif;font-weight:500;font-size:clamp(26px,3.2vw,38px);color:var(--forest);line-height:1.1;margin-bottom:16px}
-.svc-text p.d{font-size:16.5px;color:#46544a;margin-bottom:20px}
+.svc-text p.d{font-size:17.5px;color:#46544a;margin-bottom:20px}
 .svc-text .areas{display:grid;gap:10px}
-.svc-text .areas .a{display:flex;gap:12px;align-items:flex-start;font-size:15px;color:var(--muted)}
+.svc-text .areas .a{display:flex;gap:12px;align-items:flex-start;font-size:16px;color:var(--muted)}
 .svc-text .areas .a svg{width:20px;height:20px;stroke:var(--moss);fill:none;stroke-width:2;flex-shrink:0;margin-top:2px}
 
 /* ---------- FOOTER ---------- */
