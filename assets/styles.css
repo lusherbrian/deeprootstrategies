@@ -203,4 +203,5 @@ footer{background:var(--forest);color:var(--cream);padding:80px 0 38px;margin-to
   .ai-band{padding:44px 30px}
   .logo-stage{max-width:320px}
   section.block{padding:64px 0}
+  .svc-visual .lbl{font-size:32px}
 }
